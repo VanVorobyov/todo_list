@@ -1,0 +1,35 @@
+body {
+  /* Задаем ширину и высоту */
+  min-height: 100vh;
+  max-width: 1440px;
+  min-width: 320px;
+  width: 100%;
+
+  /* Задаем внешний и внутренний отступ */
+  margin: auto;
+  padding: 10px;
+
+  /* Задаем позиционирование */
+  position: relative;
+
+  /* Вычитаем padding и border из ширины и длины блока */
+  box-sizing: border-box;
+
+  /* Задаем типографику */
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+
+  /* Задаем wdtn фона */
+  background-color: #3f72af;
+
+  /* Добавляем плавный скроллинг */
+  scroll-behavior: smooth;
+
+  /* Если прижимаем футер к низу */
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
