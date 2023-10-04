@@ -1,0 +1,68 @@
+.form {
+  width: 490px;
+  height: 55px;
+
+  margin: 10px 0;
+
+  padding: 0 15px;
+
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 30px 1fr 30px 30px;
+  gap: 10px;
+  align-items: center;
+
+  background-color: #dbe2ef;
+
+  border-radius: 10px;
+
+  &__input {
+    &_checkbox {
+      height: 28px;
+      width: 30px;
+
+      background-color: transparent;
+    }
+
+    &_name {
+      width: 100%;
+      border: none;
+      font-size: 18px;
+
+      outline: none;
+      background-color: transparent;
+    }
+  }
+
+  &__button {
+    &_edit {
+      height: 30px;
+      background-color: transparent;
+      // border: 1px solid #3f72af;
+      border: none;
+
+      background-image: url('../../images/edit-icon.svg');
+      background-position: center center;
+      background-size: 24px;
+      background-repeat: no-repeat;
+
+      cursor: pointer;
+    }
+
+    &_delete {
+      height: 30px;
+      background-color: transparent;
+
+      // border: 1px solid #3f72af;
+      border: none;
+
+      background-image: url('../../images/delete-icon.svg');
+      background-position: center center;
+      background-size: 24px;
+      background-repeat: no-repeat;
+
+      cursor: pointer;
+    }
+  }
+}

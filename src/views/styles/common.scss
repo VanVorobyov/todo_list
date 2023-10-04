@@ -7,7 +7,7 @@ body {
 
   /* Задаем внешний и внутренний отступ */
   margin: auto;
-  padding: 10px;
+  padding: 20px;
 
   /* Задаем позиционирование */
   position: relative;
@@ -22,14 +22,21 @@ body {
   font-weight: 400;
   color: #000;
 
-  /* Задаем wdtn фона */
+  /* Задаем цвет фона */
   background-color: #3f72af;
 
   /* Добавляем плавный скроллинг */
   scroll-behavior: smooth;
+}
+
+#root {
+  max-width: inherit;
+  width: 100%;
 
   /* Если прижимаем футер к низу */
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
